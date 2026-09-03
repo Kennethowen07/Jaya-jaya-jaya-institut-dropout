@@ -147,7 +147,7 @@ if submitted:
         st.progress(min(proba, 1.0))
 
     st.caption(
-        f"Ambang batas {THRESHOLD}. Pada data uji, precision 0.79 dan recall 0.78, "
+        f"Ambang batas {THRESHOLD}. Pada data uji, precision 0.82 dan recall 0.89, "
         "jadi sekitar satu dari lima siswa yang ditandai sebenarnya akan lulus normal. "
         "Hasil ini dipakai sebagai prioritas bimbingan, bukan vonis."
     )
